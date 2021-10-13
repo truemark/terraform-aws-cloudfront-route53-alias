@@ -1,3 +1,3 @@
-output "route53_record_ids" {
-  value = aws_route53_record.this.*.id
+output "route53_record_names" {
+  value = aws_route53_record.this.*.name
 }
